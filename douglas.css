@@ -1,0 +1,258 @@
+/* Main background color */
+.background {
+  background-color: black;
+}
+
+/* Second level background color */
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+/* Marc Douglas Title container */
+.bannerhead {
+  text-align: left;
+  font-family: "goudy_trajan_regularregular";
+  color: rgb(29, 179, 216);
+  font-size: 60px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px rgba(0,0,0,0.9);
+  padding: 10px;
+  background-color: black;
+  border-bottom: 1px solid lightgray;
+  margin-left: 150px;
+  padding: 0px;
+  border: 0px;
+  margin-top: 25px;
+
+}
+
+/* Novels of Adventure, Science Fiction & Drama subtitle */
+h3 {
+  text-align: center;
+  font-family: "goudy_trajan_regularregular";
+  color: rgb(29, 179, 216);
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px rgba(0,0,0,0.9);
+  background-color: black;
+  font-style: italic;
+}
+
+/* Click Any Cover to Learn More container */
+h2 {
+  text-align: center;
+  font-family: "goudy_trajan_regularregular";
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+
+/* SlingShot, Soon & Health Titles text */
+.bannerhead3 {
+  text-align: center;
+  font-family: "goudy_trajan_regularregular";
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px rgba(0,0,0,0.9);
+
+}
+
+/* SlingShot container */
+.slingshot {
+  text-align: center;
+  font-family: "goudy_trajan_regularregular";
+  color: rgb(29, 179, 216);
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px rgba(0,0,0,0.9);
+  padding: 1px;
+  background-image: linear-gradient(to right, black, orange, black);
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+
+/* Soon container */
+.soon {
+  text-align: center;
+  font-family: "goudy_trajan_regularregular";
+  color: rgb(29, 179, 216);
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px rgba(0,0,0,0.9);
+  padding: 1px;
+  background-color: black;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/* Health container */
+.health {
+  text-align: center;
+  font-family: "goudy_trajan_regularregular";
+  color: rgb(29, 179, 216);
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px rgba(0,0,0,0.9);
+  background-image: linear-gradient(to right, black, orange, black);
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/* Book Images size, layout, etc for all 3 categories */
+.resize_fit_center {
+    max-width: 200px;
+    max-height: 200px;
+    vertical-align: center;
+    horizontal-align: center;
+    margin: 8px;
+    box-shadow: 5px 5px black;
+
+}
+
+
+/* Style all font awesome social media icons */
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  float: right;
+
+}
+
+/* Add a hover effect if you want - social media icons */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each social media brand */
+
+/* Facebook */
+.fa-facebook {
+  background: rgb(128, 128, 128);
+  color: black;
+  margin-left: 10px;
+}
+/* Instagram */
+.fa-instagram {
+  background: rgb(128, 128, 128);
+  color: black;
+  margin-left: 10px;
+
+}
+/* LinkedIn */
+.fa-linkedin {
+  background: rgb(128, 128, 128);
+  color: black;
+  margin-left: 10px;
+
+}
+
+/* Twitter */
+.fa-twitter {
+  background: rgb(128, 128, 128);
+  color: black;
+  margin-left: 10px;
+
+
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: relative; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: rgb(128, 128, 128);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px rgba(0,0,0,0.9);
+  margin-left: 75px;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+
+
+/* EMAIL SUBSCRIPTION INFO */
+/* Style the form element with a border around it */
+  form {
+    border: 4px solid #f1f1f1;
+  }
+
+  /* Add some padding and a grey background color to containers */
+  .container1 {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+
+  /* Style the input elements and the submit button */
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 120px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  /* Add margins to the checkbox */
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
